@@ -4,7 +4,7 @@
    router hash, kerangka (sidebar/topbar), login Google & darurat, util UI.
    ============================================================ */
 'use strict';
-const VERSI = '3.0.0';
+const VERSI = '3.1.0';
 const CFG = window.APP_CONFIG || {};
 const $ = (s, r) => (r || document).querySelector(s);
 const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
